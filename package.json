@@ -3,9 +3,13 @@
   "version": "1.0.0",
   "description": "a youtube type backed project",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon index.js"
   },
-  "author": "mohnish",
-  "license": "ISC"
+  "author": "Mohnish",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
 }
