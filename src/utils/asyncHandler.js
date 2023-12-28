@@ -5,4 +5,10 @@ const asyncHandler = (requestHandler) => {
     }
 }
 
+// const asyncHandler = (fn) => {
+//     () => {
+
+//     }
+// }
+
 export {asyncHandler}
